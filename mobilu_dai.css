@@ -37,7 +37,7 @@
 .ui {
 	display: flex;
 	flex-wrap: wrap;
-	max-height: 300px;
+	/*max-height: 300px;*/
 }
 .ui #ui_box{
 	margin: 0 auto;
@@ -45,7 +45,6 @@
 	display: flex;
 	flex: wrap;
 	flex-wrap: wrap;
-	max-height: 500px;
 }
 .ui #ui_theme {
 	max-width: 370px;
@@ -59,12 +58,10 @@
 	max-width: 370px;
 	height: 228px;
 }
-.portfolio {
-	display: flex;
-}
+
 .portfolio #zatichka {
 	/*width: 80%;*/
-	height: 1600px;
+	/*height: 1600px;*/
 	background-color: #F1F1F1;
 	flex-direction: column;
 	display: flex;
@@ -96,19 +93,20 @@
 	height: 42px*/
 
 }
-.header * {
+.end * {
 	padding-top: 15px;
 	text-align: center;
 	display: flex;
+	flex-direction: column;
 }
 
-.header #button a {
+.end #button a {
 	padding: 10px 20px;
 	background-color: black;
 	border-radius: 25px;
 	color: white;
 }
-.header #links {
+.end #links {
 	text-align: center;
 	background-image: url(links.png);
 	width: 131px;
@@ -137,13 +135,13 @@
 	display: none;
 }
 
-@media(max-width:621px){
+@media(max-width:541px){
 	.menu{
 		display: none;
 	}
 	.btn{
 		width: 33px;
-		height: 6px;
+		height: 22px;
 		background-image: url(NAVbtn.png);
 	}
 	.btn #bibra a:hover>.secretik{
@@ -156,7 +154,7 @@
 		background-color: #FFFFFF;
 	}
 	.ui{
-		height: 500px;
+	
 	}
 
 }
